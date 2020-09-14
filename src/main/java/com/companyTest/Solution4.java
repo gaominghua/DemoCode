@@ -1,6 +1,4 @@
-package com.Test;
-
-import akka.stream.impl.fusing.Scan;
+package com.companyTest;
 
 import java.util.Scanner;
 
