@@ -1,4 +1,4 @@
-package com.tjpu.Lambda;
+package com.tjpu.java.Lambda;
 
 /***
  * 以下示例演示了lambda演进的过程，
