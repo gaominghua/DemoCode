@@ -5,7 +5,12 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 
 public class Thread_JUC_BlockingQueue {
-
+/**
+ *                  抛异常        阻塞         超时                      回特殊值（boolean，null）
+ * 插入              add          put	     offer(e,time,unit)	      offer
+ * 取元素            remove	     take	     poll                     poll
+ * 查询元素          element       -           -                        peek
+ */
     public static void main(String[] args) {
 
         //Collection父类
